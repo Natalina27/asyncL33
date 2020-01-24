@@ -10,8 +10,8 @@
     100% { opacity: 0 }
 }
 .preloader div {
-    left: 94px;
-    top: 48px;
+    left: 900px;
+    top: 350px;
     position: absolute;
     animation: preloader linear 1s infinite;
     background: #fe718d;
@@ -81,8 +81,8 @@
                 background: #fe718d;
             }
 .preloader-spinner {
-    width: 200px;
-    height: 200px;
+    width: 600px;
+    height: 600px;
     display: inline-block;
     overflow: hidden;
     background: #fff;
