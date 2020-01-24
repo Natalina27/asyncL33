@@ -6,14 +6,17 @@ preloader.style.display = 'none';
 
 
 
- const onClick = ()  => {
-     if (preloader.style.display === 'none'){
-         preloader.style.display = 'block';
-         page.style.display = 'none';
-     } else{
-     preloader.style.display = 'none';
-         page.style.display = 'block';
-     }
+  const onClick = ()  => {
+      preloader.style.display = 'block';
+      page.style.display = 'none';
+      //         page.style.display = 'block';
+ //     if (preloader.style.display === 'none'){
+ //         preloader.style.display = 'block';
+ //         page.style.display = 'none';
+ //     } else{
+ //     preloader.style.display = 'none';
+ //         page.style.display = 'block';
+ //     }
  };
 
 
