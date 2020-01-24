@@ -1,6 +1,7 @@
 
 const page = document.getElementById('page');
 const preloader = document.querySelector('.preloader');
+const button = document.querySelector('.button');
 preloader.style.display = 'none';
 
 
@@ -25,4 +26,4 @@ setTimeout(() => {
     page.style.display = 'block';
     }, 2000);
 
-page.addEventListener('click', onClick);
+button.addEventListener('click', onClick);
