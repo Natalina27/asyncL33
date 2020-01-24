@@ -10,7 +10,7 @@
     100% { opacity: 0 }
 }
 .preloader div {
-    left: 650px;
+    left: 600px;
     top: 300px;
     position: absolute;
     animation: preloader linear 1s infinite;
